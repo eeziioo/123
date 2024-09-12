@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;   
+}
+.head-content {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background-color: #333;
+    padding: 20px 0 0;
+}
+.menu {
+    list-style: none;
+    padding: 20px 0 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo-img {
+    width: 80px;
+}
+
+.tel button{
+    margin: 10px 20px 0px;
+    padding: 10px 20px;
+    background-color: #003cff;
+    border: none;
+    color: #f4f4f4;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 99px;
+}
+
+.tel button img {
+    width: 20px;
+}
+
+.bir-rasm img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.bir-content {
+    background-color: wheat;
+    height: 250px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+    color: rgb(7, 7, 108);
+    padding-top: 300px;
+    font-size: 50px;
+}
+
+.birinchi {
+    margin-bottom: 500px;
+}
+
+h3 {
+    font-size: 30px;
+    color: darkslateblue;
+}
+
+.ikki-bosh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.l {
+    width: 50px;
+    height: 4px;
+    background-color: darkblue;
+}
+
+.l1 {
+    width: 25px;
+    height: 4px;
+    background-color: darkblue  ;
+    margin-left: 25px;
+}
+
+.l2 {
+    width: 25px;
+    height: 4px;
+    background-color: darkblue;
+}
+
+
+.ikki-rasm img {
+    border-radius: 99px;
+    position: absolute;
+}
+
+.ikki-rasm p {
+    width: 250px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 230px;
+}
+
+
+
+.ikki-bcard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin-top: 50px;
+}
+
+.uch-card {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(192, 189, 189);
+    border-radius: 10px;
+}   
+
+.uch-card-img img {
+    width: 80px;
+}
+
+.uch-bir {
+    font-size: 25px;
+}
+
+.u-card {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+h4 {
+    color: darkblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+.tort-bir {
+    font-size: 25px;
+}
+
+.tort-card {
+    padding: 20px;
+    width: 250px;
+    background-color: #abb6da;
+    border-radius: 10px;
+}
+
+.tort-content {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+
+h5 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.besh-p {
+    color: gray;
+    width: 350px;   
+    text-align: center;
+    margin-top: 50px;
+}
+
+.besh-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 150px;
+}
+
+.besh-chap {
+    text-align: center;
+}
+
+/* .beshinchi {
+    margin-top: 100px;
+} */
+
+.besh-bosh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.phone button img{
+    width: 50px;
+}
+.phone button {
+    border: none;
+    background-color: rgb(100, 133, 210);
+    width: 70px;
+    height: 70px;
+    border-radius: 99px;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    /* width: 300px; */
+    /* background-color: white; */
+    /* padding: 20px; */
+    z-index: 1000;
+}
+
+.phone {
+    display: none;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 576px) {
+    .menu {
+        display: none;
+    }
+    .tel button {
+        display: none;
+    }
+    .fff {
+        margin-top: 400px;
+    }
+    .aaa {
+        margin-top: 400px;
+    }
+    .u-card {
+        margin-top: 20px;
+        gap: 50px;
+    }
+    .tort-content {
+        gap: 50px;
+        margin-top: 35px;
+    }
+    .ikki-bcard {
+        margin-top: 20px;
+        gap: 50px;
+    }
+    .phone {
+        display: block;
+    }
+    .birinchi {
+        margin-bottom: 200px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 576px) {
+    .container{
+        max-width: 1024px;
+    }
+
+    .beshinchi {
+        margin-top: 1000px;
+    }
+
+    .ikki-bcard {
+        gap: 50px;
+    }
+    .u-card{
+        gap: 50px;
+    }
+    .tort-content {
+        gap: 50px;
+    }
+    .besh-content {
+        gap: 50px;
+    }
+}
